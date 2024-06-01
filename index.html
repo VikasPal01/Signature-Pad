@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Signature</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tools">
+            <span class="color">
+               <label for="favcolor"> Text color picker</label>
+                <div><input type="color" id="textColor"></div>
+            </span>
+            <span class="background">
+                
+                <label for="bgcolor">Background</label>
+                <div><input type="color" id="bgColor" ></div>
+            </span>
+            <span class="fontSize">
+                <label for="fontSize">Background</label>
+               <div>
+                <select name="fonts" id="fontPicker">
+                    <option value="2">2px</option>
+                    <option value="3">3px</option>
+                    <option value="4">4px</option>
+                    <option value="5">5px</option>
+
+                </select>
+               </div>
+            </span>
+        </div>
+        <div class="notepad">
+            <canvas id="signaturePad" width="881px" height="439px" ></canvas>
+        </div>
+        <div class="buttons">
+            <button id="clearPad" >Clear</button>
+            <button class="save" id="saveBtn"> Save & Download</button>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

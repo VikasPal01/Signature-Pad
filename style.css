@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+max-width: 60%;
+height: 100vh;
+margin: 0 auto;
+}
+.tools{
+    margin-top: 80px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tools span {
+    width: 100%;
+    margin: 0 20px;
+   
+}
+.tools span div{
+    width: 100%;
+    border: 2px solid black;
+    margin: 5px 0px;
+}
+#textColor{
+    width: 100%;
+    border: none;
+    color: #000;
+}
+#bgColor{
+    width: 100%;
+    border: none;
+    color: white;
+}
+#fontPicker{
+    width: 100%;
+    padding: 5px;
+}
+.notepad{
+    margin: 2rem 0;
+    height: calc(100vh - 300px);
+    
+    border: 2px solid black;
+}
+#signaturePad{
+    max-width: 881px;
+    max-height: 439px;
+
+cursor: pointer;
+   
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    width: 100%;
+   font-size:12px;
+   padding: 12px 0;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   color: white;
+   margin:10px;
+}
+#clearPad{
+    background-color: rgb(195, 31, 31);
+  
+}
+.save{
+    background-color: green;
+  
+}
+.retrieve{
+    background-color:orange;
+  
+}
